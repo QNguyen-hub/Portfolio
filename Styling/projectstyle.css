@@ -1,0 +1,39 @@
+:root {
+  --primary: #90e0ef;
+  --secondary: #caf0f8;
+  --text: #0077b6;
+}
+
+* {
+  font-family: sans-serif;
+  color: var(--text);
+}
+header {
+  text-align: center;
+}
+
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 1px solid blue;
+  height: 250px;
+  padding: 15px;
+}
+
+#project-container div {
+  display: flex;
+  height: 80px;
+  width: 30%;
+  border: 1px solid purple;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #abc4ff;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+#project-container div:hover {
+  background: #abc4ff;
+  background: radial-gradient(circle, #abc4ff 0%, #7fb0e9 100%);
+}

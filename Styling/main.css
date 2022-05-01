@@ -1,0 +1,11 @@
+:root {
+  --primary: #90e0ef;
+  --secondary: #caf0f8;
+  --text: #0077b6;
+}
+
+h1,
+p {
+  text-align: center;
+  color: var(--text);
+}

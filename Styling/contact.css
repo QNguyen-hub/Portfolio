@@ -1,0 +1,37 @@
+:root {
+  --primary: #90e0ef;
+  --secondary: #caf0f8;
+  --text: #0077b6;
+}
+
+* {
+  font-family: sans-serif;
+  color: var(--text);
+}
+h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  /* width: 80%; */
+}
+form {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 15px;
+}
+
+form div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  width: 300px;
+}
+button {
+  width: 50%;
+  background-color: #ade8f4;
+}
