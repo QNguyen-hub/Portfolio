@@ -1,7 +1,7 @@
 :root {
-  --primary: #90e0ef;
-  --secondary: #caf0f8;
-  --text: #0077b6;
+  --primary: #f1faee;
+  --secondary: #a8dadc;
+  --text: #457b9d;
 }
 * {
   margin: 0;
@@ -46,7 +46,7 @@ img {
   text-decoration: none;
   font-size: larger;
   border: solid 2px black;
-  box-shadow: 10px 10px 5px blue;
+  box-shadow: 10px 10px 5px #1d3557;
 }
 .nav-item:nth-child(-n + 2) {
   margin-right: auto;
